@@ -16,8 +16,6 @@ var findMedianSortedArrays = function (nums1, nums2) {
   }
   if (nums2.length == 0) {
     return calcMedian(nums1, totalLength, medianPosition);
-
-    return median;
   }
 
   while (nums1.length && nums2.length) {
